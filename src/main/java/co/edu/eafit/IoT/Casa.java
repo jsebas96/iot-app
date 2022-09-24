@@ -50,9 +50,9 @@ public class Casa {
 
     public String getVentilador() {
         if (this.temperaturaCasa > this.temperatura) {
-            return "apagado";
-        } else {
             return "encendido";
+        } else {
+            return "apagado";
         }
     }
 }
