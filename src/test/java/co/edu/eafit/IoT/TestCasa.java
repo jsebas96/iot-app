@@ -36,5 +36,32 @@ public class TestCasa {
         Casa casa = new Casa();
         assertEquals(21.0, casa.bajarTemperatura(-1.0));
     }
-
+    
+    @Test
+    public void testCalefactorApagado() {
+        Casa casa = new Casa();
+        casa.temperatura = 15.0;
+        assertEquals("apagado", casa.getCalefactor());
+    }
+    
+    @Test
+    public void testCalefactorEncendido() {
+        Casa casa = new Casa();
+        casa.temperatura = 26.0;
+        assertEquals("encendido", casa.getCalefactor());
+    }
+    
+    @Test
+    public void testVentiladorApagado() {
+        Casa casa = new Casa();
+        casa.temperatura = 28.0;
+        assertEquals("apagado", casa.getVentilador());
+    }
+    
+    @Test
+    public void testVentiladorEncendido() {
+        Casa casa = new Casa();
+        casa.temperatura = 15.0;
+        assertEquals("encendido", casa.getVentilador());
+    }
 }
