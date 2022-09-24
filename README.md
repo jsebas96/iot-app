@@ -6,7 +6,7 @@
 
 Endpoint  | Tipo | Descripción
 ------------- | ------------- |-------------
-/ | Content Cell | Bienvenida
+/ | GET | Bienvenida
 /temperatura  | GET | Temperatura de Referencia
 /temperaturaCasa  | GET | Temperatura de la Casa
 /subirTemperatura?numero=  | GET | Subir Temperatura de Referencia [12-34] °c
