@@ -5,7 +5,7 @@ import java.security.SecureRandom;
 public class Casa {
 
     public Double temperatura = 22.0;
-    private Double temperaturaCasa = 23.0;
+    private Double temperaturaCasa = 24.0;
     private final Double maxTemp = 34.0;
     private final Double minTemp = 12.0;
 
