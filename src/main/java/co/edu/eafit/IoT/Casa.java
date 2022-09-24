@@ -7,7 +7,7 @@ public class Casa {
     public Double temperatura = 22.0;
     private Double temperaturaCasa = 24.0;
     private final Double maxTemp = 34.0;
-    private final Double minTemp = 10.0;
+    private final Double minTemp = 12.0;
 
     SecureRandom random = new SecureRandom();
 
